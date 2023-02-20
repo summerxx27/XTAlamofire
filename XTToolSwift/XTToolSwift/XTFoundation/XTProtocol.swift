@@ -8,6 +8,6 @@
 import Foundation
 
 /// 基础模型协议
-public protocol XTProtocol: Decodable, Codable {
+public protocol XTProtocol: Codable {
 
 }
