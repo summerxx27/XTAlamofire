@@ -1,20 +1,34 @@
 PODS:
   - Alamofire (5.6.4)
   - CodableWrapper (0.3.2)
+  - OpenCombine (0.13.0)
+  - OpenCombineDispatch (0.13.0):
+    - OpenCombine (>= 0.12.0)
+  - OpenCombineFoundation (0.13.0):
+    - OpenCombine (>= 0.12.0)
 
 DEPENDENCIES:
   - Alamofire (= 5.6.4)
   - CodableWrapper
+  - OpenCombine (= 0.13.0)
+  - OpenCombineDispatch (= 0.13.0)
+  - OpenCombineFoundation (= 0.13.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - CodableWrapper
+    - OpenCombine
+    - OpenCombineDispatch
+    - OpenCombineFoundation
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   CodableWrapper: fbb76b3bea6519564b456bb295317df35d5100c5
+  OpenCombine: 8d4ec617562967299e60007f32a73ce908eca14f
+  OpenCombineDispatch: 107bf14a1bf2ac7441c347e9f1a3f08bf0b2d8f3
+  OpenCombineFoundation: 15d690ae1df328cdb7182ebfc234570dedb9c469
 
-PODFILE CHECKSUM: 7941358f20359ad556458da442ce3e9bb5bb9a15
+PODFILE CHECKSUM: 152c6f628b7a4c74059940126379a758d348fa4d
 
 COCOAPODS: 1.11.3

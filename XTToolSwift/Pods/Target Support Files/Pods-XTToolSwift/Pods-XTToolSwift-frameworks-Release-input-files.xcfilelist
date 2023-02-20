@@ -1,3 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-XTToolSwift/Pods-XTToolSwift-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/CodableWrapper/CodableWrapper.framework
+${BUILT_PRODUCTS_DIR}/OpenCombine/OpenCombine.framework
+${BUILT_PRODUCTS_DIR}/OpenCombineDispatch/OpenCombineDispatch.framework
+${BUILT_PRODUCTS_DIR}/OpenCombineFoundation/OpenCombineFoundation.framework
