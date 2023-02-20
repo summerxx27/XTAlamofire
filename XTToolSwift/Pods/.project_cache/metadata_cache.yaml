@@ -1,0 +1,16 @@
+Alamofire:
+  LABEL: Alamofire
+  PROJECT_PATH: Alamofire.xcodeproj
+  UUID: 81B7E9B7CD0CADA087A4BB042FBA92E7
+Pods-XTToolSwift:
+  LABEL: Pods-XTToolSwift
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: E3045AE9D84575D7B68D00C8B1B10EC6
+Pods-XTToolSwift-XTToolSwiftUITests:
+  LABEL: Pods-XTToolSwift-XTToolSwiftUITests
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 2D7FEF8450D0A433BFF3F2BEB335C83B
+Pods-XTToolSwiftTests:
+  LABEL: Pods-XTToolSwiftTests
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 324AEE658BB5792AAA0AAFB27263BD64

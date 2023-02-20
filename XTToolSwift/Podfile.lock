@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.4)
+  - CodableWrapper (0.3.2)
+
+DEPENDENCIES:
+  - Alamofire (= 5.6.4)
+  - CodableWrapper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CodableWrapper
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  CodableWrapper: fbb76b3bea6519564b456bb295317df35d5100c5
+
+PODFILE CHECKSUM: 7941358f20359ad556458da442ce3e9bb5bb9a15
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,42 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Alamofire:
+    BUILD_SETTINGS_CHECKSUM:
+      Alamofire:
+        :debug: 66124fc6c8ea92042b76703f87d627d4
+        :release: 66124fc6c8ea92042b76703f87d627d4
+    CHECKSUM: 4e95d97098eacb88856099c4fc79b526a299e48c
+    PROJECT_NAME: Alamofire
+    SPECS:
+      - Alamofire (5.6.4)
+  Pods-XTToolSwift:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 35dbecdb4a1cd4f746a0b80f7224b560
+      Release: 35dbecdb4a1cd4f746a0b80f7224b560
+  Pods-XTToolSwift-XTToolSwiftUITests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 7d86fbfbe5879df7ba49beff4a54b6d4
+      Release: 7d86fbfbe5879df7ba49beff4a54b6d4
+  Pods-XTToolSwiftTests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 0e7adda616e95b8442ef897fc0718ecb
+      Release: 0e7adda616e95b8442ef897fc0718ecb
+INSTALLATION_OPTIONS:
+  clean: true
+  deduplicate_targets: true
+  deterministic_uuids: false
+  disable_input_output_paths: false
+  generate_multiple_pod_projects: true
+  incremental_installation: true
+  integrate_targets: true
+  lock_pod_sources: true
+  preserve_pod_file_structure: false
+  share_schemes_for_development_pods: false
+  skip_pods_project_generation: false
+  warn_for_multiple_pod_sources: true
+  warn_for_unused_master_specs_repo: false
+OBJECT_VERSION: 56
+PLUGINS:
+  {}

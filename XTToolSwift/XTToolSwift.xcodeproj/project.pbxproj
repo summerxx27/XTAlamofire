@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0B3EDBA69C5A7F3644CF31 /* Pods_XTToolSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5733824D7973926BF0D07B /* Pods_XTToolSwift.framework */; };
+		6BBAE76FAD6283FABA851D47 /* Pods_XTToolSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E244A509B5CCFABF1B56976 /* Pods_XTToolSwiftTests.framework */; };
+		B941572229A333890030EEE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941572129A333890030EEE1 /* AppDelegate.swift */; };
+		B941572429A333890030EEE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941572329A333890030EEE1 /* SceneDelegate.swift */; };
+		B941572629A333890030EEE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941572529A333890030EEE1 /* ViewController.swift */; };
+		B941572929A333890030EEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B941572729A333890030EEE1 /* Main.storyboard */; };
+		B941572B29A3338A0030EEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B941572A29A3338A0030EEE1 /* Assets.xcassets */; };
+		B941572E29A3338A0030EEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B941572C29A3338A0030EEE1 /* LaunchScreen.storyboard */; };
+		B941573929A3338A0030EEE1 /* XTToolSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941573829A3338A0030EEE1 /* XTToolSwiftTests.swift */; };
+		B941574329A3338A0030EEE1 /* XTToolSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941574229A3338A0030EEE1 /* XTToolSwiftUITests.swift */; };
+		B941574529A3338A0030EEE1 /* XTToolSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941574429A3338A0030EEE1 /* XTToolSwiftUITestsLaunchTests.swift */; };
+		B9415B8229A338710030EEE1 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B7C29A338700030EEE1 /* ApiClient.swift */; };
+		B9415B8329A338710030EEE1 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B7D29A338710030EEE1 /* ApiResponse.swift */; };
+		B9415B8429A338710030EEE1 /* AppInfo+Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B7E29A338710030EEE1 /* AppInfo+Header.swift */; };
+		B9415B8529A338710030EEE1 /* ApiResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B7F29A338710030EEE1 /* ApiResolver.swift */; };
+		B9415B8629A338710030EEE1 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B8029A338710030EEE1 /* Types.swift */; };
+		B9415B8729A338710030EEE1 /* ApiInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B8129A338710030EEE1 /* ApiInterceptor.swift */; };
+		B9415B9229A338AD0030EEE1 /* JSONSortedEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B8929A338AD0030EEE1 /* JSONSortedEncoding.swift */; };
+		B9415B9329A338AD0030EEE1 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B8A29A338AD0030EEE1 /* ResponseHandler.swift */; };
+		B9415B9429A338AD0030EEE1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B8B29A338AD0030EEE1 /* NetworkError.swift */; };
+		B9415B9529A338AD0030EEE1 /* NetworkManager+Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B8C29A338AD0030EEE1 /* NetworkManager+Reachability.swift */; };
+		B9415B9629A338AD0030EEE1 /* NetworkInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B8D29A338AD0030EEE1 /* NetworkInterceptor.swift */; };
+		B9415B9729A338AD0030EEE1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B8E29A338AD0030EEE1 /* NetworkManager.swift */; };
+		B9415B9829A338AD0030EEE1 /* RequestTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B8F29A338AD0030EEE1 /* RequestTask.swift */; };
+		B9415B9A29A338AD0030EEE1 /* NetworkCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415B9129A338AD0030EEE1 /* NetworkCenter.swift */; };
+		B9415FC629A339DB0030EEE1 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FC529A339DB0030EEE1 /* AppInfo.swift */; };
+		B9415FC929A33AC10030EEE1 /* XTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FC829A33AC10030EEE1 /* XTModel.swift */; };
+		B9415FCB29A33B5F0030EEE1 /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FCA29A33B5F0030EEE1 /* AssociatedObject.swift */; };
+		B9415FCD29A33CA40030EEE1 /* RepoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FCC29A33CA40030EEE1 /* RepoApi.swift */; };
+		B9415FCF29A33D720030EEE1 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FCE29A33D720030EEE1 /* RepoModel.swift */; };
+		B9415FD429A34C2B0030EEE1 /* RepoDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FD329A34C2B0030EEE1 /* RepoDetailApi.swift */; };
+		B9415FD629A34C660030EEE1 /* RepoDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FD529A34C660030EEE1 /* RepoDetailModel.swift */; };
+		B9415FDB29A35DF50030EEE1 /* XTRepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FDA29A35DF50030EEE1 /* XTRepoModel.swift */; };
+		B9415FDD29A362B30030EEE1 /* XTProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FDC29A362B30030EEE1 /* XTProtocol.swift */; };
+		B9415FE029A365E80030EEE1 /* JDNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FDF29A365E80030EEE1 /* JDNetwork.swift */; };
+		C72ECECD56E745A6AACB9ECF /* Pods_XTToolSwift_XTToolSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36931DA0A5863D7938C9C12F /* Pods_XTToolSwift_XTToolSwiftUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B941573529A3338A0030EEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B941571629A333890030EEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B941571D29A333890030EEE1;
+			remoteInfo = XTToolSwift;
+		};
+		B941573F29A3338A0030EEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B941571629A333890030EEE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B941571D29A333890030EEE1;
+			remoteInfo = XTToolSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079F9F835EDF121EA7D3CF3B /* Pods-XTToolSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTToolSwift.release.xcconfig"; path = "Target Support Files/Pods-XTToolSwift/Pods-XTToolSwift.release.xcconfig"; sourceTree = "<group>"; };
+		2FE010273539ADC78CEA8E71 /* Pods-XTToolSwift-XTToolSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTToolSwift-XTToolSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-XTToolSwift-XTToolSwiftUITests/Pods-XTToolSwift-XTToolSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36931DA0A5863D7938C9C12F /* Pods_XTToolSwift_XTToolSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTToolSwift_XTToolSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548B9E8078023708F2D5C083 /* Pods-XTToolSwift-XTToolSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTToolSwift-XTToolSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-XTToolSwift-XTToolSwiftUITests/Pods-XTToolSwift-XTToolSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E244A509B5CCFABF1B56976 /* Pods_XTToolSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTToolSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69238C34E33784D1C2795FB8 /* Pods-XTToolSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTToolSwift.debug.xcconfig"; path = "Target Support Files/Pods-XTToolSwift/Pods-XTToolSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		77DE2053AD14F10AF573D799 /* Pods-XTToolSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTToolSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-XTToolSwiftTests/Pods-XTToolSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A5733824D7973926BF0D07B /* Pods_XTToolSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTToolSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8336410C46906EEB5D5760E8 /* Pods-XTToolSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTToolSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-XTToolSwiftTests/Pods-XTToolSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B941571E29A333890030EEE1 /* XTToolSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTToolSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B941572129A333890030EEE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B941572329A333890030EEE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B941572529A333890030EEE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B941572829A333890030EEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B941572A29A3338A0030EEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B941572D29A3338A0030EEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B941572F29A3338A0030EEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B941573429A3338A0030EEE1 /* XTToolSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTToolSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B941573829A3338A0030EEE1 /* XTToolSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTToolSwiftTests.swift; sourceTree = "<group>"; };
+		B941573E29A3338A0030EEE1 /* XTToolSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTToolSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B941574229A3338A0030EEE1 /* XTToolSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTToolSwiftUITests.swift; sourceTree = "<group>"; };
+		B941574429A3338A0030EEE1 /* XTToolSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTToolSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9415B7C29A338700030EEE1 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		B9415B7D29A338710030EEE1 /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		B9415B7E29A338710030EEE1 /* AppInfo+Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppInfo+Header.swift"; sourceTree = "<group>"; };
+		B9415B7F29A338710030EEE1 /* ApiResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResolver.swift; sourceTree = "<group>"; };
+		B9415B8029A338710030EEE1 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		B9415B8129A338710030EEE1 /* ApiInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiInterceptor.swift; sourceTree = "<group>"; };
+		B9415B8929A338AD0030EEE1 /* JSONSortedEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSortedEncoding.swift; sourceTree = "<group>"; };
+		B9415B8A29A338AD0030EEE1 /* ResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		B9415B8B29A338AD0030EEE1 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		B9415B8C29A338AD0030EEE1 /* NetworkManager+Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Reachability.swift"; sourceTree = "<group>"; };
+		B9415B8D29A338AD0030EEE1 /* NetworkInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkInterceptor.swift; sourceTree = "<group>"; };
+		B9415B8E29A338AD0030EEE1 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B9415B8F29A338AD0030EEE1 /* RequestTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTask.swift; sourceTree = "<group>"; };
+		B9415B9129A338AD0030EEE1 /* NetworkCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCenter.swift; sourceTree = "<group>"; };
+		B9415FC529A339DB0030EEE1 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		B9415FC829A33AC10030EEE1 /* XTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTModel.swift; sourceTree = "<group>"; };
+		B9415FCA29A33B5F0030EEE1 /* AssociatedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedObject.swift; sourceTree = "<group>"; };
+		B9415FCC29A33CA40030EEE1 /* RepoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoApi.swift; sourceTree = "<group>"; };
+		B9415FCE29A33D720030EEE1 /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
+		B9415FD329A34C2B0030EEE1 /* RepoDetailApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailApi.swift; sourceTree = "<group>"; };
+		B9415FD529A34C660030EEE1 /* RepoDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailModel.swift; sourceTree = "<group>"; };
+		B9415FDA29A35DF50030EEE1 /* XTRepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTRepoModel.swift; sourceTree = "<group>"; };
+		B9415FDC29A362B30030EEE1 /* XTProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTProtocol.swift; sourceTree = "<group>"; };
+		B9415FDF29A365E80030EEE1 /* JDNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDNetwork.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B941571B29A333890030EEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0B3EDBA69C5A7F3644CF31 /* Pods_XTToolSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941573129A3338A0030EEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBAE76FAD6283FABA851D47 /* Pods_XTToolSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941573B29A3338A0030EEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72ECECD56E745A6AACB9ECF /* Pods_XTToolSwift_XTToolSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C0CA6ADA04F01EDAC9DD6DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69238C34E33784D1C2795FB8 /* Pods-XTToolSwift.debug.xcconfig */,
+				079F9F835EDF121EA7D3CF3B /* Pods-XTToolSwift.release.xcconfig */,
+				2FE010273539ADC78CEA8E71 /* Pods-XTToolSwift-XTToolSwiftUITests.debug.xcconfig */,
+				548B9E8078023708F2D5C083 /* Pods-XTToolSwift-XTToolSwiftUITests.release.xcconfig */,
+				8336410C46906EEB5D5760E8 /* Pods-XTToolSwiftTests.debug.xcconfig */,
+				77DE2053AD14F10AF573D799 /* Pods-XTToolSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B941571529A333890030EEE1 = {
+			isa = PBXGroup;
+			children = (
+				B941572029A333890030EEE1 /* XTToolSwift */,
+				B941573729A3338A0030EEE1 /* XTToolSwiftTests */,
+				B941574129A3338A0030EEE1 /* XTToolSwiftUITests */,
+				B941571F29A333890030EEE1 /* Products */,
+				8C0CA6ADA04F01EDAC9DD6DF /* Pods */,
+				E0410030CCFE8A23EB38458C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B941571F29A333890030EEE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B941571E29A333890030EEE1 /* XTToolSwift.app */,
+				B941573429A3338A0030EEE1 /* XTToolSwiftTests.xctest */,
+				B941573E29A3338A0030EEE1 /* XTToolSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B941572029A333890030EEE1 /* XTToolSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B9415FDE29A365BF0030EEE1 /* JDNetwork */,
+				B9415FD229A34C170030EEE1 /* Test */,
+				B9415FC729A33A980030EEE1 /* XTFoundation */,
+				B9415B8829A338780030EEE1 /* Networking */,
+				B9415B7B29A338050030EEE1 /* Api */,
+				B941572129A333890030EEE1 /* AppDelegate.swift */,
+				B941572329A333890030EEE1 /* SceneDelegate.swift */,
+				B941572529A333890030EEE1 /* ViewController.swift */,
+				B941572729A333890030EEE1 /* Main.storyboard */,
+				B941572A29A3338A0030EEE1 /* Assets.xcassets */,
+				B941572C29A3338A0030EEE1 /* LaunchScreen.storyboard */,
+				B941572F29A3338A0030EEE1 /* Info.plist */,
+			);
+			path = XTToolSwift;
+			sourceTree = "<group>";
+		};
+		B941573729A3338A0030EEE1 /* XTToolSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B941573829A3338A0030EEE1 /* XTToolSwiftTests.swift */,
+			);
+			path = XTToolSwiftTests;
+			sourceTree = "<group>";
+		};
+		B941574129A3338A0030EEE1 /* XTToolSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B941574229A3338A0030EEE1 /* XTToolSwiftUITests.swift */,
+				B941574429A3338A0030EEE1 /* XTToolSwiftUITestsLaunchTests.swift */,
+			);
+			path = XTToolSwiftUITests;
+			sourceTree = "<group>";
+		};
+		B9415B7B29A338050030EEE1 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				B9415B7C29A338700030EEE1 /* ApiClient.swift */,
+				B9415B8129A338710030EEE1 /* ApiInterceptor.swift */,
+				B9415B7F29A338710030EEE1 /* ApiResolver.swift */,
+				B9415B7D29A338710030EEE1 /* ApiResponse.swift */,
+				B9415B7E29A338710030EEE1 /* AppInfo+Header.swift */,
+				B9415B8029A338710030EEE1 /* Types.swift */,
+				B9415FC529A339DB0030EEE1 /* AppInfo.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		B9415B8829A338780030EEE1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B9415B8929A338AD0030EEE1 /* JSONSortedEncoding.swift */,
+				B9415B9129A338AD0030EEE1 /* NetworkCenter.swift */,
+				B9415B8B29A338AD0030EEE1 /* NetworkError.swift */,
+				B9415B8D29A338AD0030EEE1 /* NetworkInterceptor.swift */,
+				B9415B8E29A338AD0030EEE1 /* NetworkManager.swift */,
+				B9415B8C29A338AD0030EEE1 /* NetworkManager+Reachability.swift */,
+				B9415B8F29A338AD0030EEE1 /* RequestTask.swift */,
+				B9415B8A29A338AD0030EEE1 /* ResponseHandler.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B9415FC729A33A980030EEE1 /* XTFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				B9415FC829A33AC10030EEE1 /* XTModel.swift */,
+				B9415FCA29A33B5F0030EEE1 /* AssociatedObject.swift */,
+				B9415FDC29A362B30030EEE1 /* XTProtocol.swift */,
+			);
+			path = XTFoundation;
+			sourceTree = "<group>";
+		};
+		B9415FD229A34C170030EEE1 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				B9415FDA29A35DF50030EEE1 /* XTRepoModel.swift */,
+				B9415FCC29A33CA40030EEE1 /* RepoApi.swift */,
+				B9415FCE29A33D720030EEE1 /* RepoModel.swift */,
+				B9415FD329A34C2B0030EEE1 /* RepoDetailApi.swift */,
+				B9415FD529A34C660030EEE1 /* RepoDetailModel.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		B9415FDE29A365BF0030EEE1 /* JDNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B9415FDF29A365E80030EEE1 /* JDNetwork.swift */,
+			);
+			path = JDNetwork;
+			sourceTree = "<group>";
+		};
+		E0410030CCFE8A23EB38458C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A5733824D7973926BF0D07B /* Pods_XTToolSwift.framework */,
+				36931DA0A5863D7938C9C12F /* Pods_XTToolSwift_XTToolSwiftUITests.framework */,
+				5E244A509B5CCFABF1B56976 /* Pods_XTToolSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B941571D29A333890030EEE1 /* XTToolSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B941574829A3338A0030EEE1 /* Build configuration list for PBXNativeTarget "XTToolSwift" */;
+			buildPhases = (
+				B45160A3C1315CAD7A6ECAED /* [CP] Check Pods Manifest.lock */,
+				B941571A29A333890030EEE1 /* Sources */,
+				B941571B29A333890030EEE1 /* Frameworks */,
+				B941571C29A333890030EEE1 /* Resources */,
+				363ED8CF8409B6E18E4EFD52 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTToolSwift;
+			productName = XTToolSwift;
+			productReference = B941571E29A333890030EEE1 /* XTToolSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B941573329A3338A0030EEE1 /* XTToolSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B941574B29A3338A0030EEE1 /* Build configuration list for PBXNativeTarget "XTToolSwiftTests" */;
+			buildPhases = (
+				016466413767A4A93B26F26E /* [CP] Check Pods Manifest.lock */,
+				B941573029A3338A0030EEE1 /* Sources */,
+				B941573129A3338A0030EEE1 /* Frameworks */,
+				B941573229A3338A0030EEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B941573629A3338A0030EEE1 /* PBXTargetDependency */,
+			);
+			name = XTToolSwiftTests;
+			productName = XTToolSwiftTests;
+			productReference = B941573429A3338A0030EEE1 /* XTToolSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B941573D29A3338A0030EEE1 /* XTToolSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B941574E29A3338A0030EEE1 /* Build configuration list for PBXNativeTarget "XTToolSwiftUITests" */;
+			buildPhases = (
+				A12A33F1C15E269462035824 /* [CP] Check Pods Manifest.lock */,
+				B941573A29A3338A0030EEE1 /* Sources */,
+				B941573B29A3338A0030EEE1 /* Frameworks */,
+				B941573C29A3338A0030EEE1 /* Resources */,
+				A2CF1224EB5F6172293DB438 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B941574029A3338A0030EEE1 /* PBXTargetDependency */,
+			);
+			name = XTToolSwiftUITests;
+			productName = XTToolSwiftUITests;
+			productReference = B941573E29A3338A0030EEE1 /* XTToolSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B941571629A333890030EEE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B941571D29A333890030EEE1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B941573329A3338A0030EEE1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B941571D29A333890030EEE1;
+					};
+					B941573D29A3338A0030EEE1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B941571D29A333890030EEE1;
+					};
+				};
+			};
+			buildConfigurationList = B941571929A333890030EEE1 /* Build configuration list for PBXProject "XTToolSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B941571529A333890030EEE1;
+			productRefGroup = B941571F29A333890030EEE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B941571D29A333890030EEE1 /* XTToolSwift */,
+				B941573329A3338A0030EEE1 /* XTToolSwiftTests */,
+				B941573D29A3338A0030EEE1 /* XTToolSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B941571C29A333890030EEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941572E29A3338A0030EEE1 /* LaunchScreen.storyboard in Resources */,
+				B941572B29A3338A0030EEE1 /* Assets.xcassets in Resources */,
+				B941572929A333890030EEE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941573229A3338A0030EEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941573C29A3338A0030EEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016466413767A4A93B26F26E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XTToolSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		363ED8CF8409B6E18E4EFD52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XTToolSwift/Pods-XTToolSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XTToolSwift/Pods-XTToolSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XTToolSwift/Pods-XTToolSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A12A33F1C15E269462035824 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XTToolSwift-XTToolSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2CF1224EB5F6172293DB438 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XTToolSwift-XTToolSwiftUITests/Pods-XTToolSwift-XTToolSwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XTToolSwift-XTToolSwiftUITests/Pods-XTToolSwift-XTToolSwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XTToolSwift-XTToolSwiftUITests/Pods-XTToolSwift-XTToolSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B45160A3C1315CAD7A6ECAED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XTToolSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B941571A29A333890030EEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941572629A333890030EEE1 /* ViewController.swift in Sources */,
+				B9415B9A29A338AD0030EEE1 /* NetworkCenter.swift in Sources */,
+				B9415B8529A338710030EEE1 /* ApiResolver.swift in Sources */,
+				B9415FC629A339DB0030EEE1 /* AppInfo.swift in Sources */,
+				B9415FCB29A33B5F0030EEE1 /* AssociatedObject.swift in Sources */,
+				B941572229A333890030EEE1 /* AppDelegate.swift in Sources */,
+				B9415FCF29A33D720030EEE1 /* RepoModel.swift in Sources */,
+				B9415B9329A338AD0030EEE1 /* ResponseHandler.swift in Sources */,
+				B9415B8729A338710030EEE1 /* ApiInterceptor.swift in Sources */,
+				B9415FCD29A33CA40030EEE1 /* RepoApi.swift in Sources */,
+				B9415B8629A338710030EEE1 /* Types.swift in Sources */,
+				B9415B9229A338AD0030EEE1 /* JSONSortedEncoding.swift in Sources */,
+				B9415FDD29A362B30030EEE1 /* XTProtocol.swift in Sources */,
+				B9415B8429A338710030EEE1 /* AppInfo+Header.swift in Sources */,
+				B9415B9829A338AD0030EEE1 /* RequestTask.swift in Sources */,
+				B941572429A333890030EEE1 /* SceneDelegate.swift in Sources */,
+				B9415B9529A338AD0030EEE1 /* NetworkManager+Reachability.swift in Sources */,
+				B9415FC929A33AC10030EEE1 /* XTModel.swift in Sources */,
+				B9415FD429A34C2B0030EEE1 /* RepoDetailApi.swift in Sources */,
+				B9415B9429A338AD0030EEE1 /* NetworkError.swift in Sources */,
+				B9415B8329A338710030EEE1 /* ApiResponse.swift in Sources */,
+				B9415B9729A338AD0030EEE1 /* NetworkManager.swift in Sources */,
+				B9415FD629A34C660030EEE1 /* RepoDetailModel.swift in Sources */,
+				B9415B9629A338AD0030EEE1 /* NetworkInterceptor.swift in Sources */,
+				B9415B8229A338710030EEE1 /* ApiClient.swift in Sources */,
+				B9415FE029A365E80030EEE1 /* JDNetwork.swift in Sources */,
+				B9415FDB29A35DF50030EEE1 /* XTRepoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941573029A3338A0030EEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941573929A3338A0030EEE1 /* XTToolSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941573A29A3338A0030EEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941574529A3338A0030EEE1 /* XTToolSwiftUITestsLaunchTests.swift in Sources */,
+				B941574329A3338A0030EEE1 /* XTToolSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B941573629A3338A0030EEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B941571D29A333890030EEE1 /* XTToolSwift */;
+			targetProxy = B941573529A3338A0030EEE1 /* PBXContainerItemProxy */;
+		};
+		B941574029A3338A0030EEE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B941571D29A333890030EEE1 /* XTToolSwift */;
+			targetProxy = B941573F29A3338A0030EEE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B941572729A333890030EEE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B941572829A333890030EEE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B941572C29A3338A0030EEE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B941572D29A3338A0030EEE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B941574629A3338A0030EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B941574729A3338A0030EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B941574929A3338A0030EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69238C34E33784D1C2795FB8 /* Pods-XTToolSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XTToolSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = summerxx.com.XTToolSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B941574A29A3338A0030EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079F9F835EDF121EA7D3CF3B /* Pods-XTToolSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XTToolSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = summerxx.com.XTToolSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B941574C29A3338A0030EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8336410C46906EEB5D5760E8 /* Pods-XTToolSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = summerxx.com.XTToolSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTToolSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XTToolSwift";
+			};
+			name = Debug;
+		};
+		B941574D29A3338A0030EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DE2053AD14F10AF573D799 /* Pods-XTToolSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = summerxx.com.XTToolSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTToolSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XTToolSwift";
+			};
+			name = Release;
+		};
+		B941574F29A3338A0030EEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE010273539ADC78CEA8E71 /* Pods-XTToolSwift-XTToolSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = summerxx.com.XTToolSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XTToolSwift;
+			};
+			name = Debug;
+		};
+		B941575029A3338A0030EEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548B9E8078023708F2D5C083 /* Pods-XTToolSwift-XTToolSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = summerxx.com.XTToolSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XTToolSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B941571929A333890030EEE1 /* Build configuration list for PBXProject "XTToolSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941574629A3338A0030EEE1 /* Debug */,
+				B941574729A3338A0030EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B941574829A3338A0030EEE1 /* Build configuration list for PBXNativeTarget "XTToolSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941574929A3338A0030EEE1 /* Debug */,
+				B941574A29A3338A0030EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B941574B29A3338A0030EEE1 /* Build configuration list for PBXNativeTarget "XTToolSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941574C29A3338A0030EEE1 /* Debug */,
+				B941574D29A3338A0030EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B941574E29A3338A0030EEE1 /* Build configuration list for PBXNativeTarget "XTToolSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941574F29A3338A0030EEE1 /* Debug */,
+				B941575029A3338A0030EEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B941571629A333890030EEE1 /* Project object */;
+}

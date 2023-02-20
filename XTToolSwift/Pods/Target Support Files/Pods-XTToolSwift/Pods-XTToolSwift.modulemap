@@ -1,0 +1,6 @@
+framework module Pods_XTToolSwift {
+  umbrella header "Pods-XTToolSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
