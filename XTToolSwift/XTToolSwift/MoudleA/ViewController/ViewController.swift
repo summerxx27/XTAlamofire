@@ -50,7 +50,7 @@ class ViewController: UIViewController {
                 print(obj.id)
                 print(obj.private)
                 print(obj.homepage)
-                print("第二层数据 type === \(obj.owner?.type)")
+                print("第二层数据 type === \(obj.owner?.html_url ?? "")")
                 print("\n")
             }
         } failure: { error in

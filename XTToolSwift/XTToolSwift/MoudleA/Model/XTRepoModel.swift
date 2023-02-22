@@ -17,7 +17,7 @@ struct XTRepoModel: XTProtocol {
 struct XTOwnerModel: XTProtocol {
 
     @Codec
-    var type: String = "summerxx"
+    var html_url: String = "summerxx"
 }
 
 struct XTRepoListModel: XTProtocol {
@@ -36,7 +36,7 @@ struct XTRepoListModel: XTProtocol {
 
     /// null
     @Codec
-    var homepage: String = "null"
+    var homepage: String = "summerxx"
 
     var owner: XTOwnerModel?
 }

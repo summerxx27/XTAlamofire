@@ -2,23 +2,23 @@
 platform :ios, '11.0'
 
 target 'XTToolSwift' do
-# Comment the next line if you don't want to use dynamic frameworks
-use_frameworks!
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
 
-# Pods for XTToolSwift
-pod 'Alamofire', '5.6.4'
-pod 'CodableWrapper'
-pod 'OpenCombine', '0.13.0'
-pod 'OpenCombineFoundation', '0.13.0'
-pod 'OpenCombineDispatch', '0.13.0'
+  # Pods for XTToolSwift
+  pod 'Alamofire', '5.6.4'
+  pod 'CodableWrapper'
+  pod 'OpenCombine', '0.13.0'
+  pod 'OpenCombineFoundation', '0.13.0'
+  pod 'OpenCombineDispatch', '0.13.0'
+  
+  target 'XTToolSwiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
 
-target 'XTToolSwiftTests' do
-inherit! :search_paths
-# Pods for testing
-end
-
-target 'XTToolSwiftUITests' do
-# Pods for testing
-end
+  target 'XTToolSwiftUITests' do
+    # Pods for testing
+  end
 
 end
