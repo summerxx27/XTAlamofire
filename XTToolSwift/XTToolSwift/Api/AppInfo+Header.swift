@@ -14,7 +14,7 @@ extension AppInfo {
     func baseHeaders() -> [String: String] {
         
         let header = [
-            "Authorization": "token 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"
+            "Authorization": "token "
         ]
         
         return header
