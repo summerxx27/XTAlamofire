@@ -42,7 +42,6 @@
 		B9415FDB29A35DF50030EEE1 /* XTRepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FDA29A35DF50030EEE1 /* XTRepoModel.swift */; };
 		B9415FDD29A362B30030EEE1 /* XTProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FDC29A362B30030EEE1 /* XTProtocol.swift */; };
 		B9415FE029A365E80030EEE1 /* JDNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9415FDF29A365E80030EEE1 /* JDNetwork.swift */; };
-		B941600329A663BE0030EEE1 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941600229A663BE0030EEE1 /* Toast.swift */; };
 		C72ECECD56E745A6AACB9ECF /* Pods_XTToolSwift_XTToolSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36931DA0A5863D7938C9C12F /* Pods_XTToolSwift_XTToolSwiftUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -125,7 +124,6 @@
 		B9415FDF29A365E80030EEE1 /* JDNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDNetwork.swift; sourceTree = "<group>"; };
 		B9415FE929A65DD30030EEE1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		B9415FEB29A65DD30030EEE1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		B941600229A663BE0030EEE1 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,7 +283,6 @@
 		B941600129A663990030EEE1 /* XTUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				B941600229A663BE0030EEE1 /* Toast.swift */,
 			);
 			path = XTUIKit;
 			sourceTree = "<group>";
@@ -616,7 +613,6 @@
 				B9415FD429A34C2B0030EEE1 /* RepoDetailApi.swift in Sources */,
 				B9415B9429A338AD0030EEE1 /* NetworkError.swift in Sources */,
 				B9415B8329A338710030EEE1 /* ApiResponse.swift in Sources */,
-				B941600329A663BE0030EEE1 /* Toast.swift in Sources */,
 				B9415B9729A338AD0030EEE1 /* NetworkManager.swift in Sources */,
 				B9415FD629A34C660030EEE1 /* RepoDetailModel.swift in Sources */,
 				B9415B9629A338AD0030EEE1 /* NetworkInterceptor.swift in Sources */,

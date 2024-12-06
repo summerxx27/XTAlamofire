@@ -13,13 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        RepoDetailApi.fetchRepDetai { resp in
-//
-//            guard resp.result != nil, let full_name = resp.result?.full_name else {
-//                return
-//            }
-//            print("xttest_full_name === \(full_name)")
-//        }
+        RepoDetailApi.fetchRepDetai { resp in
+
+            guard resp.result != nil, let full_name = resp.result?.full_name else {
+                return
+            }
+            print("xttest_full_name === \(full_name)")
+        }
 //
 //        RepoApi.fetchRepoList { resp in
 //
